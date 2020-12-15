@@ -1,1 +1,335 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Alessandro Del Duca" />
+        <title>Alessandro Del Duca</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Flag icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Analytics-->
+        <!--script(async src='https://www.google-analytics.com/analytics.js')-->
+        <script src="js/js_analytics.js"></script>
+        <script async src="//cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js" onload="initFingerprintJS()"></script>
+        <!-- Captcha-->
+        <script src="https://hcaptcha.com/1/api.js" async defer></script>
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">
+                    <img class="img-fluid logo-img" src="assets/img/DD_logo.svg" style="opacity: 0.5;" width="30" height="30" alt="" />
+                    <span class="justify-content-center text-center ml-4">Alessandro Del Duca</span>
+                </span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <!--li.nav-item-->
+                    <!--    a.nav-link.js-scroll-trigger(href='#interests') Interests-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <span class="d-none d-lg-block"><img class="img-fluid logo-img mb-2" src="assets/img/DD_logo.svg" style="opacity: 0.1;" width="70rem" height="70rem" alt="" /></span>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Alessandro
+                        <span class="text-primary">Del Duca</span>
+                    </h1>
+                    <div class="subheading mb-5">Big Data and Cloud Developer</div>
+                    <p class="lead text-justify">Ever since I wrote my first "hello, world", coding has been my passion. I love being able to manipulate programs, using simple, pure and reproducible logic, to solve practical problems.</p>
+                    <p class="lead text-justify">During the years, I began to appreciate every day more the importance of data, and how software could be used to extract value from it to improve people's lives in everyday tasks. At the university, I've been given the chance to develop and improve this passion, getting the first approach with distributed systems, public Cloud and Big Data technologies.</p>
+                    <p class="lead text-justify mb-5">So now, in industry, this passion remains with me. Every day there are new problems to solve, new challenges, new things to learn. I'm lucky to have the possibility to do something I like even on business days.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/alessandrodelduca/" target="blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn" data-delay='{"show":250,"hide":100}'><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/aledelduca" target="blank" data-toggle="tooltip" data-placement="bottom" title="Github" data-delay='{"show":250,"hide":100}'><i class="fab fa-github"></i></a>
+                        <a class="social-icon js-scroll-trigger" href="#contact" data-toggle="tooltip" data-placement="bottom" title="Write to me" data-delay='{"show":250,"hide":100}'><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Data and Cloud Developer</h3>
+                            <div class="subheading mb-3">Storm Reply</div>
+                            <div class="span text-secondary mb-3">Berlin · Germany</div>
+                            <p>Architecting and development of custom solutions based on AWS technology stack, with a special focus on automotive industry. Site reliability engineering and maintaining for Kafka and Elastic clusters.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2019 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Big Data Engineer</h3>
+                            <div class="subheading mb-0">Data Reply s.r.l.</div>
+                            <div class="span text-secondary mb-3">Milan · Italy</div>
+                            <p>Design and development of enterprise-level big data solutions (Data Governance, ETL, Data Processing) for several leader companies in Financial, Manufacturing, Automotive, Energy and Telecommunication industries.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2017 - October 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">R&D Internship</h3>
+                            <div class="subheading mb-0">In & Out S.p.A.</div>
+                            <div class="span text-secondary mb-3">Rome · Italy</div>
+                            <p>Studying state of art technologies to design and develop a efficient prototype for NLP on inbound calls in a contact center.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">November 2016 - March 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Developer</h3>
+                            <div class="subheading mb-0">RAN s.r.l.</div>
+                            <div class="span text-secondary mb-3">Rome · Italy</div>
+                            <p>Design and development of desktop applications and development of advanced features on Microsoft SharePoint platform.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2013 - August 2014</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Università degli Studi Roma Tre</h3>
+                            <div class="subheading mb-3">Master of Science</div>
+                            <div class="h4">Computer Science and Engineering</div>
+                            <p>International exchange Erasmus+ in Alcalá de Henares (Madrid) during academic year 2014-2015</p>
+                            <p>Final grade: 106/110</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2014 - 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Università degli Studi Roma Tre</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div class="h4">Computer Science and Engineering</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2009 - 2013</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-4">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-python"></i>
+                            <p class="icons-title">Python</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-scala"></i>
+                            <p class="icons-title">Scala Lang</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-java"></i>
+                            <p class="icons-title">Java</p>
+                        </li>
+                        <li class="list-inline-item"><div class="vl"></div></li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-aws"></i>
+                            <p class="icons-title">AWS</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-databricks"></i>
+                            <p class="icons-title">Databricks</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-hadoop"></i>
+                            <p class="icons-title">Hadoop Stack</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-spark"></i>
+                            <p class="icons-title">Apache Spark</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-kafka"></i>
+                            <p class="icons-title">Apache Kafka</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="icon-elastic"></i>
+                            <p class="icons-title">Elastic</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-git-alt"></i>
+                            <p class="icons-title">Git</p>
+                        </li>
+                        <li class="list-inline-item"><div class="vl"></div></li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-linux"></i>
+                            <p class="icons-title">GNU/Linux</p>
+                        </li>
+                        <li class="list-inline-item d-inline-block text-center dev-icon">
+                            <i class="fab fa-windows"></i>
+                            <p class="icons-title">Windows</p>
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3 mt-3">Spoken languages</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="flag-icon flag-icon-it"></i></span>
+                            Italian - Native proficiency
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="flag-icon flag-icon-gb"></i></span>
+                            English - Professional working proficiency
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="flag-icon flag-icon-es"></i></span>
+                            Spanish - Professional working proficiency
+                        </li>
+                    </ul>
+                    <div class="subheading mb-3 mt-4">Other skills</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Critical Thinking
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Problem Solving
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Curiosity
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Adaptability
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-award"></i>
+                                <!-- .text-warning-->
+                            </span>
+                            <a href="https://www.scrum.org/certificates/537568" target="_blank">Professional Scrum Master I</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award tex"></i></span>
+                            <a href="https://credentials.databricks.com/d6e08b35-0bf5-4159-870f-2e9902005c60" target="_blank">Databricks Partner Training - Developer Essentials</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy"></i></span>
+                            <a href="http://luissenlabs.com/wp-content/uploads/2013/07/cs%20cleanweb%20hackathon%20chiusura.pdf" target="_blank">
+                                BIC Lazio award -
+                                <i>Alfred!</i>
+                                Team - CleanWeb Hackaton 2014 @ Luiss EnLabs
+                            </a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-book-reader"></i></span>
+                            AWS Certified Solution Architect Associate (in progress)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-book-reader"></i></span>
+                            AWS Certified Data Analytics Specialty (in progress)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Contact-->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact me</h2>
+                    <form class="form-contact" id="contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="col form-label-group">
+                                <input class="form-control" type="text" name="fullName" placeholder="asd" id="formFullName" required />
+                                <label for="formFullName">Full name</label>
+                                <div class="invalid-feedback">Enter your name</div>
+                            </div>
+                            <div class="form-label-group col">
+                                <input class="form-control" type="email" id="formEmail" name="email" placeholder="asd" required />
+                                <label for="formEmail">E-mail</label>
+                                <div class="invalid-feedback">Enter a valid e-mail address</div>
+                            </div>
+                        </div>
+                        <div class="form-label-group">
+                            <input class="form-control" type="text" id="formSubject" name="subject" placeholder="asd" required />
+                            <label for="formSubject">Subject</label>
+                            <div class="invalid-feedback">Please enter a subject</div>
+                        </div>
+                        <div class="form-label-group">
+                            <textarea class="char-textarea form-control" rows="5" maxlength="5000" id="formMessage" placeholder="Your message..." name="message" required></textarea>
+                            <label for="formMessage">Message</label>
+                            <div class="invalid-feedback">Your message must be at least 30 characters long</div>
+                        </div>
+                        <div class="form-group">
+                            <p>Your information is only sent to my email account, seen only by me and shared with no one else. I will only use this information to reply to your inquiry.</p>
+                            <div class="form-check">
+                                <input class="form-check-input" id="formConsent" name="consent" type="checkbox" required />
+                                <label class="form-check-label" for="formConsent">Yes, I consent to my data being used for this purpose.</label>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <div class="h-captcha" id="hcaptcha" data-sitekey="fccfff26-df92-4118-86d8-84a1e55e5434" data-callback="hcaptchaCallback"></div>
+                                <div class="invalid-feedback">Please confirm you're a human.</div>
+                            </div>
+                            <div class="form-group col"><button class="btn btn-primary" type="submit">Submit form</button></div>
+                        </div>
+                    </form>
+                    <div class="alert alert-primary text-center m-4" id="thanks" role="alert" style="display: none;"><h3 class="alert-heading m-4">Thank you!</h3></div>
+                </div>
+            </section>
+        </div>
+    </body>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Form JS-->
+    <script src="js/contact_form.js"></script>
+</html>
