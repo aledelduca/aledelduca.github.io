@@ -297,10 +297,9 @@
                             <label for="formSubject">Subject</label>
                             <div class="invalid-feedback">Please enter a subject</div>
                         </div>
-                        <div class="form-label-group">
-                            <textarea class="char-textarea form-control" rows="5" maxlength="5000" id="formMessage" placeholder="Your message..." name="message" required></textarea>
+                        <div class="form-group">
                             <label for="formMessage">Message</label>
-                            <div class="invalid-feedback">Your message must be at least 30 characters long</div>
+                            <textarea class="char-textarea form-control" rows="5" maxlength="5000" id="formMessage" placeholder="Your message..." name="message" required></textarea>
                         </div>
                         <div class="form-group">
                             <p>Your information is only sent to my email account, seen only by me and shared with no one else. I will only use this information to reply to your inquiry.</p>
@@ -310,11 +309,11 @@
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col">
+                            <div class="form-group col-md-6">
                                 <div class="h-captcha" id="hcaptcha" data-sitekey="fccfff26-df92-4118-86d8-84a1e55e5434" data-callback="hcaptchaCallback"></div>
                                 <div class="invalid-feedback">Please confirm you're a human.</div>
                             </div>
-                            <div class="form-group col"><button class="btn btn-primary" type="submit">Submit form</button></div>
+                            <div class="form-group col-md-6"><button class="btn btn-primary" type="submit">Submit form</button></div>
                         </div>
                     </form>
                     <div class="alert alert-primary text-center m-4" id="thanks" role="alert" style="display: none;"><h3 class="alert-heading m-4">Thank you!</h3></div>
